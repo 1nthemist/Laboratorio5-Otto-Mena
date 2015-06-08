@@ -1,0 +1,21 @@
+﻿Compilación iniciada a las 07/06/2015 08:13:20 p. m..
+     1>Proyecto "C:\Users\Diego\Desktop\Ejemplos-master\Lab 3\Lab 3.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Lab 3.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Lista.cpp
+         Lista.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Diego\Desktop\Ejemplos-master\Debug\Lab 3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Diego\Desktop\Ejemplos-master\Debug\Lab 3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Diego\Desktop\Ejemplos-master\Debug\Lab 3.lib" /MACHINE:X86 Debug\ArbolBinario.obj
+         Debug\Elemento.obj
+         Debug\ElementoDouble.obj
+         Debug\ElementoInt.obj
+         Debug\ElementoPersona.obj
+         Debug\Lista.obj
+         Debug\Main.obj
+         Debug\Persona.obj
+         Debug\stdafx.obj
+         Lab 3.vcxproj -> C:\Users\Diego\Desktop\Ejemplos-master\Debug\Lab 3.exe
+     1>Compilación del proyecto terminada "C:\Users\Diego\Desktop\Ejemplos-master\Lab 3\Lab 3.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.30
