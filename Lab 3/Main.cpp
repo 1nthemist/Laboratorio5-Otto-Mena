@@ -6,7 +6,6 @@
 #include <cstdlib>
 #include <ctime>
 #include <string>
-#include "ArbolBinario.h"
 #include "ElementoPersona.h"
 #include "Persona.h"
 #include "Elemento.h"
