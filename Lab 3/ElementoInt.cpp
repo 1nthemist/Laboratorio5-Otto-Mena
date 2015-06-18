@@ -3,7 +3,7 @@
 #include "ElementoInt.h"
 
 ElementoInt::ElementoInt(int i) : Elemento(),
-i(i) { 
+i(i) {
 }
 
 ElementoInt::~ElementoInt() {

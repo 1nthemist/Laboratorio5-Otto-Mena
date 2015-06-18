@@ -47,19 +47,19 @@ void Lista::insertarUltimo(Elemento * elementoAgregar) //inserta un elemento en 
 	{
 
 		elementoUltimo = elementoAgregar;
-		elementoPrimero = elementoAgregar;      
+		elementoPrimero = elementoAgregar;
 		length++;
 	}
 	else
 	{
 		elementoUltimo->setElementoSiguiente(elementoAgregar);
-		elementoUltimo = elementoAgregar;                      
+		elementoUltimo = elementoAgregar;
 		length++;
 	}
 }
 
 void Lista::insertarEnPosicion(Elemento * elementoAgregar, int posicion)
-{					
+{
 	if (posicion == 0)							//inserta un elemento en cualquier posicion
 	{											//notar que la posicion 0 es el inicio de la lista y agregar un elemento
 		insertarPrimero(elementoAgregar);		//alli seria lo mismo que realizar el metodo insertaPrimero.
@@ -113,7 +113,7 @@ void Lista::eliminarPrimero() //elimina el primer elemento de la lista
 	length--;
 }
 
-void Lista::eliminarUltimo()  
+void Lista::eliminarUltimo()
 {
 	Elemento * auxiliar = elementoUltimo;   //se elimina el ultimo elemento de la lista
 	if (length == 1)
@@ -192,7 +192,7 @@ void Lista::imprimir(Elemento * e, ostream & out, int posicion)  //se imprime el
 		cout << "       Posicion numero: " << posicion << endl;
 		if (e->getElementoSiguiente() != NULL)
 		{
-			imprimir(e->getElementoSiguiente(), out, posicion +1);
+			imprimir(e->getElementoSiguiente(), out, posicion + 1);
 		}
 	}
 }
